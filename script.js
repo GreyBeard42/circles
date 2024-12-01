@@ -96,7 +96,7 @@ calc.addEventListener("click", () => {
     
             show(c.value/Math.PI, "d")
         } else if(a.value !== "") {
-            explain.innerText = "Solving for diameter with area:\n\nr = √πa = "+Math.sqrt(Math.PI*a.value)+"\nd = 2r"
+            explain.innerText = "Solving for diameter with area:\n\nr = √a/π = "+Math.sqrt(a.value/Math.PI)+"\nd = 2r"
             outputbox.appendChild(explain)
     
             show(2*Math.sqrt(a.value/Math.PI), "d")
