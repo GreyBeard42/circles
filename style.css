@@ -1,4 +1,3 @@
 input,button,span {display: block;}
-#solvefor {
-    margin-bottom: 2vh;
-}
+#solvefor {margin-bottom: 2vh;}
+#outputbox,input {font-family: monospace;}
