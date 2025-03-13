@@ -1,3 +1,3 @@
 # circles
 A calculator for circles
-![preview.png](preview.png)
+![image.png](image.png)
